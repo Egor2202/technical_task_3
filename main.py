@@ -3,7 +3,8 @@ import utils
 
 
 def read_nums_from_file(filename) -> typing.List:
-    content = open(filename, 'r').read()
+    f = open(filename, 'r')
+    content = f.read()
     return list(map(int, content.split(' ')))
 
 
