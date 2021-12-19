@@ -5,6 +5,11 @@ on:
     branches: [master]
   pull_request:
     branches: [master]
+  workflow_dispatch:
+    inputs:
+      id:
+        description: 'Run'
+        required: false
 
 jobs:
   build:
