@@ -1,5 +1,7 @@
 # Техническое задание №3
 
+![example workflow](https://github.com/Egor2202/technical_task_3/actions/workflows/github-actions.yml/badge.svg)
+
 ## Описание
 ```Содержит функции нахождения минимума, максимума, суммы и произведения чисел```
 
